@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slide Decks · hanx-hep</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; padding: 3rem 1.5rem;
+    font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans CJK SC", sans-serif;
+    background: #f6f7fa; color: #1f2430;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; margin: 0 0 .4rem; }
+  .sub { color: #5b6472; margin: 0 0 2.2rem; }
+  .sub code { background: #eceef3; border-radius: 4px; padding: .1rem .35rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1rem; }
+  a.card {
+    display: block; text-decoration: none; color: inherit;
+    background: #fff; border: 1px solid #e3e6ec; border-radius: 12px;
+    padding: 1.1rem 1.2rem; transition: border-color .15s, box-shadow .15s;
+  }
+  a.card:hover { border-color: #89b4fa; box-shadow: 0 6px 18px rgba(31,41,55,.08); }
+  .card .tag {
+    display: inline-block; font-size: .72rem; letter-spacing: .06em; font-weight: 700;
+    color: #fff; background: #64748b; border-radius: 999px; padding: .15rem .6rem; margin-bottom: .5rem;
+  }
+  .card.monitoring .tag { background: #0e7490; }
+  .card.training .tag { background: #b45309; }
+  .card.report .tag { background: #7c3aed; }
+  .card.juno .tag { background: #16a34a; }
+  .card b { display: block; font-size: 1.02rem; margin-bottom: .25rem; }
+  .card span { font-size: .86rem; color: #5b6472; line-height: 1.45; }
+  .card .meta { display: block; margin-top: .55rem; font-size: .75rem; color: #8b93a1; }
+  .card .meta code { background: #f1f3f7; border-radius: 4px; padding: .05rem .3rem; }
+  footer { margin-top: 2.5rem; color: #8b93a1; font-size: .78rem; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Slide Decks</h1>
+  <p class="sub">hanx-hep 名下已发布到 GitHub Pages 的 Slidev 演示集合 · 链接形如 <code>/repo/#/页码</code>，可直接跳页</p>
+  <div class="grid">
+  <!--SLIDES:DECKS-->
+    <a class="card monitoring" href="https://hanx-hep.github.io/12th-diracx-workshop/">
+      <span class="tag">DCI 监控</span>
+      <b>AI-Assisted DIRAC Deployment and Operations at IHEP - Xiao Han</b>
+      <span>AI 辅助的 IHEP DIRAC 部署与运维（12th DIRACx Workshop）</span>
+      <span class="meta">更新 2026-09-18 · <code>12th-diracx-workshop</code></span>
+    </a>
+    <a class="card monitoring" href="https://hanx-hep.github.io/2026-cepc-dci/">
+      <span class="tag">DCI 监控</span>
+      <b>Monitoring for the Distributed Computing Infrastructure - Xiao Han</b>
+      <span>CEPC 视角的 DCI 监控：自动面板、SAM、DIRAC 日志、基础设施</span>
+      <span class="meta">更新 2026-09-14 · <code>2026-cepc-dci</code></span>
+    </a>
+    <a class="card juno" href="https://hanx-hep.github.io/28th-junocm-dci/">
+      <span class="tag">JUNO</span>
+      <b>Monitoring upgrades for the JUNO DCI - Xiao Han</b>
+      <span>第 28 届 JUNO 协作会 DCI 监控报告</span>
+      <span class="meta">更新 2026-07-20 · <code>28th-junocm-dci</code></span>
+    </a>
+    <a class="card report" href="https://hanx-hep.github.io/8th-belle2-ihepca/">
+      <span class="tag">CA 与系统</span>
+      <b>The Upgrade of IHEP Grid Certification Authority - Xiao Han</b>
+      <span>IHEP 网格 CA 升级：OpenCA → OpenXPKI（8th Belle II China Group）</span>
+      <span class="meta">更新 2026-05-30 · <code>8th-belle2-ihepca</code></span>
+    </a>
+    <a class="card " href="https://hanx-hep.github.io/ihep-mcp-slides/">
+      <span class="tag">MCP</span>
+      <b>IHEP MCP System - Slidev</b>
+      <span>IHEP MCP 系统介绍</span>
+      <span class="meta">更新 2026-05-26 · <code>ihep-mcp-slides</code></span>
+    </a>
+    <a class="card " href="https://hanx-hep.github.io/ink-openclaw-slides/">
+      <span class="tag">INK</span>
+      <b>INK: OpenClaw 应用接入与数据安全挂载 - Slidev</b>
+      <span>INK：OpenClaw 应用接入与数据安全挂载</span>
+      <span class="meta">更新 2026-05-08 · <code>ink-openclaw-slides</code></span>
+    </a>
+    <a class="card juno" href="https://hanx-hep.github.io/27th-junocm-dci/">
+      <span class="tag">JUNO</span>
+      <b>Performance study and monitoring improvements for JUNO DCI system - Xiao Han</b>
+      <span>第 27 届 JUNO 协作会分布式计算报告</span>
+      <span class="meta">更新 2026-01-22 · <code>27th-junocm-dci</code></span>
+    </a>
+  <!--/SLIDES:DECKS-->
+  </div>
+  <footer>
+    最近刷新：<!--SLIDES:UPDATED-->2026/09/22 17:52<!--/SLIDES:UPDATED-->（每 6 小时自动更新）<br>
+    收录规则：仓库启用 GitHub Pages 且带 <code>slidev</code> topic；新 deck 推送后自动出现，也可在 Actions 页手动触发刷新。
+  </footer>
+</div>
+</body>
+</html>

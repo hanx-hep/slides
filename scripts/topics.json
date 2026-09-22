@@ -1,0 +1,14 @@
+{
+  "ca": { "label": "CA 与系统", "tagClass": "report" },
+  "pki": { "label": "CA 与系统", "tagClass": "report" },
+  "ihepca": { "label": "CA 与系统", "tagClass": "report" },
+  "juno": { "label": "JUNO", "tagClass": "juno" },
+  "monitoring": { "label": "DCI 监控", "tagClass": "monitoring" },
+  "dci": { "label": "DCI 监控", "tagClass": "monitoring" },
+  "cepc": { "label": "DCI 监控", "tagClass": "monitoring" },
+  "training": { "label": "用户培训", "tagClass": "training" },
+  "belle2": { "label": "Belle II", "tagClass": "training" },
+  "mcp": { "label": "MCP", "tagClass": "" },
+  "ink": { "label": "INK", "tagClass": "" },
+  "workshop": { "label": "会议报告", "tagClass": "report" }
+}
